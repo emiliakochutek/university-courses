@@ -31,6 +31,7 @@ for a in range(1,10):
         else:
             print(f'{a}{b}', end=' ')
 
+# Rozwiązanie #3
 for a in range(1,10):
     wiersz= ' '.join(f'{a}{b}' for b in range(1,10))
     print(wiersz)
